@@ -15,7 +15,7 @@ int off;
 int killed;
 int rsttime;
 int firstboot;
-String loging;
+String login;
 String password;
 String OS;
  
@@ -62,19 +62,19 @@ while the power button is released and the pi is on a off state it will determin
  
                 if(digitalRead(retropie) == 0)      
                                 {
-                                                loging = "pi\n";
+                                                login = "pi\n";
                                                 password = "raspberry\n";
                                 }
  
                 if(digitalRead(kodi) == 0)
                                 {
-                                                loging = "root\n";
+                                                login = "root\n";
                                                 password = "openelec\n";
                                
                                 }             
                 if(digitalRead(rasbian) == 0)        
                                 {
-                                                loging = "pi\n";
+                                                login = "pi\n";
                                                 password = "raspberry\n";
                                 }
  
