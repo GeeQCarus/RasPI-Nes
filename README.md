@@ -5,8 +5,10 @@ please follow the youtube tutorial in order to know what to connect and where, i
 
 Long live retrogaming, kodi, PI and.... whatever your imagination bring you from this guide!
 
+You will need to install the arduino IDE
+https://www.arduino.cc/en/Main/Software
 
-suggestion:
+suggestion: if you want to tweak and adjust the code
 install Notepad ++
 https://notepad-plus-plus.org/download/v7.2.html
 
