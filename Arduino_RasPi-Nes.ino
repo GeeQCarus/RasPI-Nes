@@ -1,3 +1,12 @@
+
+
+/*
+*******************************************
+This code is in an evolution state, currently using the serial UART but will switch to direct input to trigger python script soon
+it will make the arduino code compatible with all OS
+*******************************************
+*/
+
 //define Arduino pin used, not mandatory but convenient,
 int LEDr = 6; //I.E. red Positive is powered by pin 6 of the Arduino pro mini, this is a PWM compatible ( adjustable voltage )  3, 5, 6, 9, 10, and 11 are all PWM
 int LEDg = 5;
