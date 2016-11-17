@@ -30,7 +30,7 @@ http://www.aliexpress.com/store/product/60CM-TF-to-micro-SD-card-Flex-Extension-
 
 you will also need to have
 
-a Multimeter or circuit tester ( if you solder to the 72 pins adapter ton install cartridge)
+a Multimeter or circuit tester ( if you solder to the 72 pins adapter to install on cartridge)
 a solder gun with lead ( for the run pin, the 72 pin adapter and the arduino)
 a dremel with precision heads
 thick glue, like Lepage Gel the one shown in my video works perfectly or a hot glue gun!
