@@ -14,7 +14,7 @@ GPIO.setup(21, GPIO.IN)     # set Read Shutdown PI
 while(1)  # create an infinite loop because 1 = TRUE, and while it is true it will run, we don't offer an exit so it will loop all day waiting for inputs!
   
 if GPIO.input(16):
-    print("pkill retroarch\n")
+    print("")
 
 else:	
 if GPIO.input(20):
