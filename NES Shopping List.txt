@@ -8,7 +8,7 @@ Game cartridges, 1 per OS you want, please use:
 
 1-Raspberry PI 3 
 
-1-Arduino pro mini 3.3v, not the 5v one, it will fry your PI.
+1-Arduino pro mini 3.3v, not the 5v one, it will fry your PI. ( a fried pie is good... not a fried PI ;) )
 http://www.aliexpress.com/store/product/1pcs-pro-mini-atmega168-Pro-Mini-168-Mini-ATMEGA168-3-3V-8MHz-for-Arduino/223246_32413038684.html
 
 20~ Dupont cable female to female (jumper cable)
