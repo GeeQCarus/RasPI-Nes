@@ -8,6 +8,7 @@ Long live retrogaming, kodi, PI and.... whatever your imagination bring you from
 
 suggestion:
 install Notepad ++
+https://notepad-plus-plus.org/download/v7.2.html
 
 and add arduino language to the tool
 https://sourceforge.net/projects/narduinoplugin/
