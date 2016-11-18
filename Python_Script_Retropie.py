@@ -1,5 +1,12 @@
 #working code!
 
+# start with the following 2 lines, remove the # 1)etc....
+
+# 1)  mkdir /home/script
+# 2)  sudo nano /home/script/gpioscript.py
+
+#copy the following code until the next commented line
+
 import os as os
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
@@ -17,8 +24,9 @@ def my_callback(channel):
 def my_callback2(channel):
     os.system("sudo reboot")
 
-    
 GPIO.add_event_detect(16, GPIO.RISING, callback=my_callback, bouncetime=300)
+
+
 GPIO.add_event_detect(20, GPIO.RISING, callback=my_callback2, bouncetime=300)
 
 try:
@@ -31,3 +39,7 @@ except KeyboardInterrupt:
 GPIO.cleanup()           # clean up GPIO on normal exit
 
 
+# type sudo nano /etc/rc.local
+
+#highlight the line right before :" exit 0 "
+#type :         python /home/script/gpioscript.py &
