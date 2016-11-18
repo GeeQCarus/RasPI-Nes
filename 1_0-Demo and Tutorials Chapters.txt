@@ -21,8 +21,8 @@ Chapter List
 06) Your first Raspberry OS RetroPIE, where to download, how to extract, how to prep the card and to write the image!
 07) First Boot of your retropie, basic config, setting wifi, changing the hotkey, GPU/RAM split and more!
 08) Advanced Retroarch, shaders, Downloading a new N64 emulator adding PS1 BIOS
-09) 
-10 ) Kodi, Please download LibreElec first then join me on the video we will do basic config
+09) Connecting to the PI via network, adding the roms, connecting via SSH to add the python script to use the front panel buttons!
+11 ) Kodi, Please download LibreElec first then join me on the video we will do basic config
 
 
 link youtube for this chapter : lorem ipsum
