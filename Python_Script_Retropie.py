@@ -1,6 +1,5 @@
 #working code!
 
-
 import os as os
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
