@@ -1,6 +1,8 @@
 # RasPI-Nes by Geek Icarus Quebec
 How to build a Raspberry Pi Nes
 
+The only Guide you will need!
+
 Please follow the youtube tutorial in order to know what to connect and where, I do not hold any responsabilities on any damaged PI or Arduino, following my guide will grant you a bunch of AWE from your friends :)
 
 Long live retrogaming, kodi, PI and.... whatever your imagination bring you from this guide!
