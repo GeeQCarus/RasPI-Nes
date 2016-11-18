@@ -1,28 +1,34 @@
-import RPi.GPIO as GPIO  # import RPi.GPIO module    
-  
-
-GPIO.setmode(GPIO.BCM) # set to BCM numbering
-  
-# Set up Inputs  
-GPIO.setup(16, GPIO.IN)     # set Read kill app 
-GPIO.setup(20, GPIO.IN)     # set Read Reboot PI 
-GPIO.setup(21, GPIO.IN)     # set Read Shutdown PI 
+#working code!
 
 
-while(1)  # create an infinite loop because 1 = TRUE, and while it is true it will run, we don't offer an exit so it will loop all day waiting for inputs!
-  
-if GPIO.input(16):
-    print("pkill retroarch\n") # kill any retroarch based emulator, by default most are, they start with lr you will need to download the right emulator for the N64
+import os as os
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BCM)
 
-else if GPIO.input(20):
-    print("sudo reboot\n") # safely reboot the pi after holding reset 3 seconds with my arduino code
 
-else if GPIO.input(21):
-    print("sudo halt\n") # safely shutdown the pi after releasing the power button with my arduino code
+GPIO.setup(16, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+GPIO.setup(20, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+GPIO.setup(21, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+
+
+# these will run in another thread when our events are detected
+def my_callback(channel):
+    os.system("pkill retroarch")
+
+def my_callback2(channel):
+    os.system("sudo reboot")
 
     
-  
+GPIO.add_event_detect(16, GPIO.RISING, callback=my_callback, bouncetime=300)
+GPIO.add_event_detect(20, GPIO.RISING, callback=my_callback2, bouncetime=300)
 
+try:
+    print "Waiting for rising edge on port 24"
+    GPIO.wait_for_edge(21, GPIO.RISING)
+    os.system("sudo halt")
 
+except KeyboardInterrupt:
+    GPIO.cleanup()       # clean up GPIO on CTRL+C exit
+GPIO.cleanup()           # clean up GPIO on normal exit
 
 
