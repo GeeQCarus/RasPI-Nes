@@ -2,7 +2,7 @@
 
 # start with the following 2 lines, remove the # 1)etc....
 
-# 1)  mkdir /home/script
+# 1)  sudo mkdir /home/script
 # 2)  sudo nano /home/script/gpioscript.py
 
 #copy the following code until the next commented line
