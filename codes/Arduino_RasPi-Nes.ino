@@ -10,6 +10,9 @@ it will make the arduino code compatible with all OS
 //define Arduino pin used, not mandatory but convenient, 
 
 
+//define Arduino pin used, not mandatory but convenient, 
+
+
 int LEDb = 3; //I.E. Blue Positive is powered by pin 3 of the Arduino pro mini, this is a PWM compatible ( adjustable voltage )  3, 5, 6, 9, 10, and 11 are all PWM
 int LEDg = 5;
 int LEDr = 6; 
@@ -29,9 +32,6 @@ int off;
 int killed;
 int rsttime;
 int firstboot;
-String loging;
-String password;
-
 
 void setup() //This will run only once when powering the Arduino from the wall socket
 {
@@ -205,19 +205,19 @@ while the power button is released and the pi is on a off state it will determin
 
   if(logged == 1 && off == 0)
   {
-  if(kodi == 1)  
+  if(digitalRead(kodi) == 0)  
     {
       analogWrite(LEDr, 0);    
       analogWrite(LEDg, 0);
       analogWrite(LEDb, 25);
     }
-  if(retropie == 1)  
+  if(digitalRead(retropie) == 0)  
   {
     analogWrite(LEDr, 25);    
     analogWrite(LEDg, 0);
     analogWrite(LEDb, 0);
   }
-  if(rasbian == 1)  
+  if(digitalRead(rasbian) == 0)  
   {
     analogWrite(LEDr, 0);    
     analogWrite(LEDg, 25);
@@ -226,7 +226,9 @@ while the power button is released and the pi is on a off state it will determin
   }
 
   while(digitalRead(rst) == 0 && off == 0) // start a reset sequence, quick press kill the app and return to emulationstation, holding 3 sec will hard reboot
-    {
+    {     analogWrite(LEDr, 0);
+          analogWrite(LEDg, 0);
+          analogWrite(LEDb, 0);
       if(killed == 0)
         {
           analogWrite(LEDr, 0);
@@ -273,8 +275,11 @@ while the power button is released and the pi is on a off state it will determin
   killed = 0;
 
   if (digitalRead(pwb) > 0 && off == 0) // start a shutdown if its already started
-    {
-      delay(200);
+    {     
+          analogWrite(LEDr, 0);
+          analogWrite(LEDg, 0);
+          analogWrite(LEDb, 0);
+          delay(200);
           digitalWrite(sendshutdown, HIGH); // send logic 3.3v to RPI reboot pin GPIO 20 pin 38 rpi python script will run the code
       delay(100);
       digitalWrite(sendshutdown, LOW);
@@ -325,3 +330,4 @@ while the power button is released and the pi is on a off state it will determin
 
 
 }  // end of loop
+
