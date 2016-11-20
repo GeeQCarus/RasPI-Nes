@@ -39,3 +39,7 @@ a Multimeter or circuit tester ( if you solder to the 72 pins adapter to install
 a solder gun with lead ( for the run pin, the 72 pin adapter and the arduino)
 a dremel with precision heads
 thick glue, like Lepage Gel the one shown in my video works perfectly or a hot glue gun!
+
+youtube link : lorem ipsum
+
+
