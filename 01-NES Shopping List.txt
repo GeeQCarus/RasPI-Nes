@@ -11,7 +11,7 @@ Game cartridges, 1 per OS you want, please use:
 1-Arduino pro mini 3.3v, not the 5v one, it will fry your PI. ( a fried pie is good... not a fried PI ;) )
 http://www.aliexpress.com/store/product/1pcs-pro-mini-atmega168-Pro-Mini-168-Mini-ATMEGA168-3-3V-8MHz-for-Arduino/223246_32413038684.html
 
-20~ Dupont cable female to female (jumper cable)
+40~ Dupont cable female to female (jumper cable)
 
 1-5v3a DC adapter with its female jack
 
@@ -21,11 +21,13 @@ https://www.amazon.ca/gp/product/B002KKYXSI/ref=oh_aui_detailpage_o02_s00?ie=UTF
 1-HDMI extension 1.5, take one with a easy to fit square female portion like the following link ( easier to cut a square/rectangle than a weird shape!
 https://www.amazon.ca/gp/product/B00QV3THB8/ref=oh_aui_detailpage_o07_s00?ie=UTF8&psc=1
 
-1-micro sd per cartridge, 32 gigs max as higher capacity are in exFAT, even though you can force a fat 32 format it is not recommended
+1-micro sd per cartridge, 32 gigs max, higher capacity are in exFAT, even though you can force a fat 32 format it is not recommended
 dont buy the cheapest one... its your hard drive, it will impact performance!
 
 1-micro sd extension any lenght, ( to connect the 72 pins adapter)
 http://www.aliexpress.com/store/product/60CM-TF-to-micro-SD-card-Flex-Extension-cable-Adapter-reader-car-GPS-phone/2011028_32689669881.html
+
+1 three color LED (optionnal but for 1.25$ you want it!)
 
 Stickers, from stickeryou
 http://www.stickeryou.com/2
