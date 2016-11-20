@@ -11,3 +11,4 @@ sudo nano /etc/emulationstation/es_systems.cfg
 advance scrapping 
 sudo /home/pi/RetroPie-Setup/retropie_setup.sh
 
+youtube link : lorem ipsum
