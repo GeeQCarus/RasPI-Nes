@@ -2,7 +2,7 @@ download putty
 http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
 
 add python codes for retropie from putty
-https://github.com/GeeQCarus/RasPI-Nes/blob/master/codes/Python_Script_Rasbian.py
+https://github.com/GeeQCarus/RasPI-Nes/blob/master/codes/Python_Script_Retropie.py
 
 
 Change megadrive to genesis
