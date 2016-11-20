@@ -22,7 +22,7 @@ Chapter List
 07) First Boot of your RetroPIE, basic config, setting wifi, changing the hotkey, GPU/RAM split and more!
 08) Connecting to the PI via network, adding the roms, connecting via SSH to add the python script to use the front panel buttons
 08.5) If you have sound issue we fix-it here in this extra chapter!
-09) Advanced Retroarch, splash screen, themes, shaders, Downloading a new N64 emulator adding PS1 BIOS and using the scraper
+09) Advanced Retroarch, splash screen, themes, shaders, Downloading a new N64 emulator adding PS1 BIOS
 10) Kodi, Please download LibreElec first then join me on the video we will do basic config
 10.5) Windows 8.1 / 10, if you have invalid argument error, a quick regedit do the trick - follow here!
 11) Adding new repos/addons/live stream for your Kodi
