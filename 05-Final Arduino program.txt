@@ -1,0 +1,11 @@
+
+This chapter is split in two,
+
+we start off with pushing the code 
+
+then we go throught explaining the entire code.
+
+
+
+github link: https://github.com/GeeQCarus/RasPI-Nes/blob/master/codes/Arduino_RasPi-Nes.ino
+Youtube link: Lorem Ipsum
