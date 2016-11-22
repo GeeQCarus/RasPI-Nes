@@ -1,0 +1,11 @@
+
+This chapter is about the basics of the arduino
+
+we will connect the usb to serial
+
+we will do a blinking light for fun
+
+
+
+github link: https://github.com/GeeQCarus/RasPI-Nes/blob/master/Basics%20Arduino%20.ino
+youtube link: lorem ipsum
