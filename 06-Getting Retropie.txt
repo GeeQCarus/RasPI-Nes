@@ -1,0 +1,11 @@
+This chapter will instruct you on how to image your SD card.
+
+
+
+Files required
+1) Retropie Image https://retropie.org.uk/download/
+2) SD card formatter https://www.sdcard.org/downloads/formatter_4/
+3) Win 32 Disk Imager https://sourceforge.net/projects/win32diskimager/
+4) 7zip because it's free, no adds and powerful! http://www.7-zip.org/
+
+Youtube link: Lorem Ipsum
