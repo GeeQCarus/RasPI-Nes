@@ -1,0 +1,9 @@
+
+First Boot of your RetroPIE
+
+Controller config, 
+setting wifi, 
+changing the hotkey, 
+and more
+
+Youtube link: Lorem Ipsum
