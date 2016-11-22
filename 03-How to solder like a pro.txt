@@ -2,7 +2,7 @@ This chapter is all about doing clean soldering,
 
 keypoint dont heat the lead, heat the pin!
 
-We will solder the Arduino, the Raspberry Pi run pin, the 72 pin adapter and of course the SD adapter in your Nes Cartridge
+We will solder the Arduino, the Raspberry Pi run pin, the power/reset/led control panel, the 72 pin adapter and of course the SD adapter in your Nes Cartridge
 
 
 Use your Multimeter it is pretty much mandatory!
