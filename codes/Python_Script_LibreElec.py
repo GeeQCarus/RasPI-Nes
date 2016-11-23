@@ -1,9 +1,11 @@
 #working code!
+#from kodi go to system > system > addons > install from repository > tools > raspberry tool  ( to be confirmed with exact names )
 
+# then connect to putty
 # start with the following 2 lines, remove the # 1)etc....
 
-# 1)  mkdir /script
-# 2)  nano /script/gpioscript.py
+# 1)                     mkdir /storage/script
+# 2)                     nano /storage/script/gpioscript.py 
 
 #copy the following code until the next commented line
 
@@ -39,19 +41,12 @@ except KeyboardInterrupt:
 
 GPIO.cleanup()           # clean up GPIO on normal exit
 
+# ctrl+o ( to save ) enter (confirm) ctrl+x (close file)
 
+#type                        nano /storage/.config/autostart.sh
+# in the blank file enter:   python /storage/script/gpioscript.py &
+# again: ctrl+o ( to save ) enter (confirm) ctrl+x (close file)
+#test:    python /storage/script/gpioscript.py
+# you should see the text: Waiting for rising edge on port 24 try reset
+#once reset try reset again, if it dont work retry!
 
-http://www.barryhubbard.com/raspberry-pi/howto-raspberry-pi-openelec-power-wake-shutdown-button-using-gpio/
-
-mkdir /storage/script
-nano /storage/script/gpioscript.py 
-
-nano /storage/.config/autostart.sh
-python /storage/script/gpioscript.py &
-
-test python /storage/script/gpioscript.py
-
-# type nano /etc/rc.local
-
-#highlight the line right before :" exit 0 "
-#type :         python /script/gpioscript.py &
