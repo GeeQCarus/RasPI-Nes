@@ -24,11 +24,10 @@ GPIO.setup(21, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 # these will run in another thread when our events are detected
 def my_callback(channel):
         os.system("reboot")
-def my_callback2(channel):
-        os.system("reboot")
+
 
 GPIO.add_event_detect(16, GPIO.RISING, callback=my_callback, bouncetime=300)
-GPIO.add_event_detect(20, GPIO.RISING, callback=my_callback2, bouncetime=300)
+
 
 try:
         print "Waiting for rising edge on port 24"
