@@ -1,6 +1,5 @@
 #working code!
-#from kodi go to system > system > addons > install from repository > tools > raspberry tool  ( to be confirmed with exact names )
-
+#from kodi go to system > system > addons > install from repository > LibreElec addon > program addon > raspberry pi tool - install!!
 # then connect to putty
 # start with the following 2 lines, remove the # 1)etc....
 
