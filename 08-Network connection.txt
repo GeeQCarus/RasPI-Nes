@@ -1,6 +1,9 @@
 download putty
 http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
 
+login: pi
+password: raspberry
+
 add python codes for retropie from putty
 https://github.com/GeeQCarus/RasPI-Nes/blob/master/codes/Python_Script_Retropie.py
 
