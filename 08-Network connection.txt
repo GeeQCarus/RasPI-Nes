@@ -10,6 +10,8 @@ https://github.com/GeeQCarus/RasPI-Nes/blob/master/codes/Python_Script_Retropie.
 
 Change megadrive to genesis
 sudo nano /etc/emulationstation/es_systems.cfg
+search for megadrive and change <theme>megadrive</theme> to <theme>genesis</theme>
+
 
 advance scrapping 
 sudo /home/pi/RetroPie-Setup/retropie_setup.sh
